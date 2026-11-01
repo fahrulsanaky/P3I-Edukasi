@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { NavLink, Link } from 'react-router-dom';
-import { Menu, X, GraduationCap } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 
 export default function Header() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -40,12 +40,14 @@ export default function Header() {
           
           {/* Bagian Kiri: Judul / Brand Logo */}
           <Link to="/" className="flex items-center gap-3 group">
-            <div className="w-10 h-10 rounded-xl bg-indigo-600 flex items-center justify-center text-white shadow-sm shadow-indigo-600/30 group-hover:bg-indigo-500 transition-colors">
-              <GraduationCap className="w-6 h-6" />
-            </div>
+            <img
+              src={`${import.meta.env.BASE_URL}assets/aistudio/image_64f53c42.png`}
+              alt="Logo P3IEdukasi"
+              className="w-10 h-10 object-contain rounded-full bg-white/10 p-0.5 border border-white/20 shadow-sm group-hover:scale-105 transition-transform"
+            />
             <div className="flex flex-col">
               <span className="text-[18px] font-bold tracking-tight text-white">
-                Lembaga Pelatihan
+                P3IEdukasi
               </span>
             </div>
           </Link>

@@ -1,6 +1,6 @@
 {
-  "name": "Hero Section Beranda",
-  "description": "Hero section modern dan responsif untuk halaman beranda dengan React, Vite, dan Tailwind CSS.",
+  "name": "P3IEdukasi",
+  "description": "Pusat Pengembangan Profesi Indonesia (P3I) - Program Pelatihan & Inhouse Training Terpercaya.",
   "requestFramePermissions": [],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }

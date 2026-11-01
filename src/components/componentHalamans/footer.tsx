@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { GraduationCap, Instagram, Twitter, Youtube, Send, MapPin, PhoneCall, Mail } from 'lucide-react';
+import { Instagram, Twitter, Youtube, Send, MapPin, PhoneCall, Mail } from 'lucide-react';
 
 export default function Footer() {
   return (
@@ -13,14 +13,16 @@ export default function Footer() {
           <div className="lg:col-span-5 flex flex-col items-start text-left">
             {/* Logo Brand */}
             <Link to="/" className="flex items-center gap-3 mb-[8px] group">
-              <div className="w-10 h-10 rounded-xl bg-indigo-600 flex items-center justify-center text-white shadow-md shadow-indigo-600/30 group-hover:bg-indigo-500 transition-colors">
-                <GraduationCap className="w-6 h-6" />
-              </div>
+              <img
+                src={`${import.meta.env.BASE_URL}assets/aistudio/image_64f53c42.png`}
+                alt="Logo P3IEdukasi"
+                className="w-12 h-12 object-contain rounded-full bg-white/10 p-0.5 border border-white/20 shadow-md group-hover:scale-105 transition-transform"
+              />
               <span
                 className="text-[20px] font-bold tracking-tight text-white"
                 style={{ fontFamily: 'Poppins, sans-serif' }}
               >
-                Lembaga Pelatihan
+                P3IEdukasi
               </span>
             </Link>
 
