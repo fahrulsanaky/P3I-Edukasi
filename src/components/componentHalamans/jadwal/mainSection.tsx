@@ -1,7 +1,6 @@
 import * as React from 'react';
 import type { SchedulerEvent, EventCalendarLocaleText } from '@mui/x-scheduler/models';
 import { EventCalendar } from '@mui/x-scheduler/event-calendar';
-import { id } from 'date-fns/locale';
 import {
   initialEvents,
   defaultVisibleDate,
@@ -84,7 +83,7 @@ export default function MainSection() {
           eventCreation={false}
           views={['month', 'agenda']}
           defaultView="agenda"
-          dateLocale={id}
+          dateLocale="id-ID"
           localeText={indonesianLocaleText}
           preferencesMenuConfig={false}
           defaultPreferences={{
