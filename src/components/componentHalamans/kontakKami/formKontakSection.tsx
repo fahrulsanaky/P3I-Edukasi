@@ -25,10 +25,10 @@ export default function FormKontakSection() {
   };
 
   return (
-    <section id="formKontak" className="w-full bg-[#1cd690] flex items-center justify-center py-0 px-[48px]">
+    <section id="formKontak" className="w-full bg-[#1cd690] flex items-center justify-center py-0 px-4 sm:px-8 lg:px-[48px]">
       <div 
         id="form-kontak-container" 
-        className="w-full max-w-7xl mx-0 px-[32px] py-[48px] flex flex-col lg:flex-row items-start justify-between gap-8 lg:gap-12"
+        className="w-full max-w-7xl mx-0 px-2 sm:px-6 lg:px-[32px] py-8 sm:py-12 lg:py-[48px] flex flex-col lg:flex-row items-start justify-between gap-8 lg:gap-12"
       >
         {/* Kolom Kiri: Lebar 35% */}
         <div 
@@ -71,7 +71,7 @@ export default function FormKontakSection() {
         >
           <div
             id="form-kontak-card"
-            className="w-full max-w-2xl bg-white rounded-[16px] px-[24px] py-[24px] shadow-lg shadow-[#022859]/10 border border-white/60"
+            className="w-full max-w-2xl bg-white rounded-[16px] p-4 sm:p-6 lg:p-[24px] shadow-lg shadow-[#022859]/10 border border-white/60"
           >
             {isSubmitted ? (
               <div

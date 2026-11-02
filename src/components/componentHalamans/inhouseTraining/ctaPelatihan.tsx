@@ -9,7 +9,7 @@ export default function CtaPelatihan() {
       {/* Main Card Container */}
       <div 
         id="cta-pelatihan-card"
-        className="w-full max-w-5xl bg-[#1cd690] rounded-[24px] sm:rounded-[32px] border border-[#18be7f]/40 shadow-[0_10px_30px_rgba(28,214,144,0.15)] py-[42px] px-8 sm:px-12 flex flex-col items-center text-center"
+        className="w-full max-w-5xl bg-[#1cd690] rounded-[24px] sm:rounded-[32px] border border-[#18be7f]/40 shadow-[0_10px_30px_rgba(28,214,144,0.15)] py-8 sm:py-[42px] px-5 sm:px-12 flex flex-col items-center text-center"
       >
         {/* Main Heading with Highlight */}
         <h2

@@ -3,14 +3,14 @@ import { Telescope, Rocket } from 'lucide-react';
 
 export default function VisiMisiSection() {
   return (
-    <section id="visimisiSection" className="w-full h-auto bg-white py-0 px-[48px]">
+    <section id="visimisiSection" className="w-full h-auto bg-white py-0 px-4 sm:px-8 lg:px-[48px]">
       <div className="w-full max-w-7xl mx-auto">
         <div
           id="tentang-kami-visimisi-container"
-          className="w-full flex flex-col gap-6 lg:gap-8 px-[32px]"
+          className="w-full flex flex-col gap-6 lg:gap-8 px-2 sm:px-6 lg:px-[32px]"
         >
           {/* Cards Visi & Misi (2 Kolom) */}
-          <div className="w-full grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-8 items-stretch py-[48px]">
+          <div className="w-full grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-8 items-stretch py-8 sm:py-12 lg:py-[48px]">
             {/* Card Kiri (Visi) */}
             <div
               id="tentang-kami-visimisi-card-kiri"

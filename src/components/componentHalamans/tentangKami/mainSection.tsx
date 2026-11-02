@@ -6,8 +6,8 @@ export default function MainSection() {
   const seminarImg = "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?auto=format&fit=crop&w=800&q=80";
 
   return (
-    <section id="mainSection" className="w-full h-auto bg-white flex items-center justify-center py-0 px-[48px]">
-      <div className="w-full max-w-7xl mx-0 px-[32px] py-[48px] flex flex-col gap-10 lg:gap-12">
+    <section id="mainSection" className="w-full h-auto bg-white flex items-center justify-center py-0 px-4 sm:px-8 lg:px-[48px]">
+      <div className="w-full max-w-7xl mx-0 px-2 sm:px-6 lg:px-[32px] py-8 sm:py-12 lg:py-[48px] flex flex-col gap-10 lg:gap-12">
         {/* Row Atas: 2 Kolom (Tentang Kami Kiri 45% & Bento Gallery Kanan 50%) */}
         <div className="w-full flex flex-col lg:flex-row items-center justify-between gap-8 lg:gap-12">
           {/* Kolom Kiri: Deskripsi (45%) */}

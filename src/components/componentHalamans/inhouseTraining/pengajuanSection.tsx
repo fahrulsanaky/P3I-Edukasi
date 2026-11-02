@@ -91,7 +91,7 @@ export default function PengajuanSection() {
         {/* BAGIAN KIRI (Left Panel: 35% Lebar, Padding 32px & 48px) */}
         <div
           id="inhouse-prosedur-left-panel"
-          className="w-full lg:w-[35%] h-auto bg-[#022859] px-[32px] py-[48px] flex flex-col justify-start text-left shrink-0"
+          className="w-full lg:w-[35%] h-auto bg-[#022859] px-4 sm:px-8 lg:px-[32px] py-8 sm:py-12 lg:py-[48px] flex flex-col justify-start text-left shrink-0"
         >
           <span
             id="inhouse-prosedur-badge"
@@ -207,7 +207,7 @@ export default function PengajuanSection() {
         {/* BAGIAN KANAN (Right Panel: 65% Lebar, Padding 32px & 48px) */}
         <div
           id="inhouse-prosedur-right-panel"
-          className="w-full lg:w-[65%] h-auto bg-[#f5f5f5] px-[32px] py-[48px] flex flex-col items-start justify-start text-left"
+          className="w-full lg:w-[65%] h-auto bg-[#f5f5f5] px-4 sm:px-8 lg:px-[32px] py-8 sm:py-12 lg:py-[48px] flex flex-col items-start justify-start text-left"
         >
           {/* Badge / Tag Form Permohonan */}
           <span
@@ -243,7 +243,7 @@ export default function PengajuanSection() {
           {/* Form Card Sesuai Desain Gambar */}
           <div
             id="inhouse-prosedur-form-card"
-            className="w-full max-w-2xl bg-white rounded-[16px] px-[24px] py-[24px] shadow-lg shadow-[#022859]/10 border border-white/60 mx-auto"
+            className="w-full max-w-2xl bg-white rounded-[16px] p-4 sm:p-6 lg:p-[24px] shadow-lg shadow-[#022859]/10 border border-white/60 mx-auto"
           >
             {isSubmitted ? (
               <div

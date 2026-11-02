@@ -61,8 +61,8 @@ export default function Dokumentasi() {
   const visibleIndices = [leftIndex, centerIndex, rightIndex];
 
   return (
-    <section className="w-full h-auto bg-white flex items-center justify-center py-0 px-[48px]">
-      <div className="w-full max-w-7xl mx-0 px-[32px] py-[48px] flex flex-col items-center">
+    <section className="w-full h-auto bg-white flex items-center justify-center py-0 px-4 sm:px-8 lg:px-[48px]">
+      <div className="w-full max-w-7xl mx-0 px-2 sm:px-6 lg:px-[32px] py-8 sm:py-12 lg:py-[48px] flex flex-col items-center">
         {/* Judul & Paragraf di posisi tengah */}
         <div className="flex flex-col items-center text-center mb-10 sm:mb-12">
           <span 
@@ -91,7 +91,7 @@ export default function Dokumentasi() {
         {/* 3 Gambar Dokumentasi */}
         <div 
           id="dokumentasi-images-container" 
-          className="flex flex-col md:flex-row items-center justify-center gap-6 w-full px-[32px]"
+          className="flex flex-col md:flex-row items-center justify-center gap-6 w-full px-0 sm:px-4 lg:px-[32px]"
         >
           {visibleIndices.map((realIndex, position) => {
             const img = documentationImages[realIndex];

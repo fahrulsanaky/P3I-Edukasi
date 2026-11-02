@@ -11,7 +11,7 @@ export default function Layanan() {
       {/* Top Header Section */}
       <section
         id="beranda-layanan-section"
-        className="relative w-full bg-[#022859] border-none overflow-hidden px-[48px] py-0 m-0 flex flex-col justify-center"
+        className="relative w-full bg-[#022859] border-none overflow-hidden px-4 sm:px-8 lg:px-[48px] py-0 m-0 flex flex-col justify-center"
       >
         {/* Background Image Container strictly on the Right Side (50%-60% width) */}
         <div className="absolute top-0 right-0 bottom-0 w-full sm:w-[65%] lg:w-[50%] h-full pointer-events-none overflow-hidden">
@@ -30,7 +30,7 @@ export default function Layanan() {
         </div>
 
         {/* Content Container */}
-        <div className="relative z-10 w-full max-w-7xl mx-0 flex flex-col lg:flex-row items-start justify-between gap-8 px-[32px] py-[48px]">
+        <div className="relative z-10 w-full max-w-7xl mx-0 flex flex-col lg:flex-row items-start justify-between gap-8 px-2 sm:px-6 lg:px-[32px] py-8 sm:py-12 lg:py-[48px]">
           {/* Kolom Kiri: Judul dan Paragraf */}
           <div className="w-full lg:w-1/2 flex flex-col items-start text-left">
             {/* Badge Label */}
@@ -66,9 +66,9 @@ export default function Layanan() {
       {/* Section baru di bagian bawah, berisi 2 card putih */}
       <section
         id="beranda-layanan-sub-section"
-        className="w-full bg-[#022859] px-[48px] py-0 flex flex-col items-center justify-center"
+        className="w-full bg-[#022859] px-4 sm:px-8 lg:px-[48px] py-0 flex flex-col items-center justify-center"
       >
-        <div className="w-full max-w-7xl grid grid-cols-1 md:grid-cols-2 gap-8 px-[32px] py-[48px]">
+        <div className="w-full max-w-7xl grid grid-cols-1 md:grid-cols-2 gap-8 px-2 sm:px-6 lg:px-[32px] py-8 sm:py-12 lg:py-[48px]">
           {/* Card Kiri: Pelatihan */}
           <div
             id="layanan-card-pelatihan"

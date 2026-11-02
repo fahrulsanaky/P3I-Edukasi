@@ -8,7 +8,7 @@ export default function CtaSection() {
   return (
     <section
       id="ctaSection"
-      className="relative w-full bg-[#022859] h-auto overflow-hidden px-[48px] py-0 flex flex-col justify-center"
+      className="relative w-full bg-[#022859] h-auto overflow-hidden px-4 sm:px-8 lg:px-[48px] py-0 flex flex-col justify-center"
     >
       {/* Background Image Container strictly on the Right Side (50%-60% width) matching Layanan section */}
       <div className="absolute top-0 right-0 bottom-0 w-full sm:w-[65%] lg:w-[50%] h-full pointer-events-none overflow-hidden">
@@ -24,7 +24,7 @@ export default function CtaSection() {
       </div>
 
       {/* Content Container */}
-      <div className="relative z-10 w-full max-w-7xl mx-0 px-[32px] py-[48px] flex flex-col lg:flex-row items-start justify-between gap-8">
+      <div className="relative z-10 w-full max-w-7xl mx-0 px-2 sm:px-6 lg:px-[32px] py-8 sm:py-12 lg:py-[48px] flex flex-col lg:flex-row items-start justify-between gap-8">
         {/* Kolom Kiri: Judul, Paragraf, dan Tombol */}
         <div className="w-full lg:w-1/2 flex flex-col items-start text-left">
           {/* Judul Utama */}

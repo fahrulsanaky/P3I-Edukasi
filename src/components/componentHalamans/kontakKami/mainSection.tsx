@@ -2,8 +2,8 @@ import React from 'react';
 
 export default function MainSection() {
   return (
-    <section id="mainSection" className="w-full h-auto bg-white flex items-center justify-center py-0 px-[48px]">
-      <div className="w-full max-w-7xl mx-0 px-[32px] py-[48px] flex flex-col md:flex-row gap-8 lg:gap-12 items-center justify-between">
+    <section id="mainSection" className="w-full h-auto bg-white flex items-center justify-center py-0 px-4 sm:px-8 lg:px-[48px]">
+      <div className="w-full max-w-7xl mx-0 px-2 sm:px-6 lg:px-[32px] py-8 sm:py-12 lg:py-[48px] flex flex-col md:flex-row gap-8 lg:gap-12 items-center justify-between">
         {/* Bagian Kiri: Teks & Informasi (35%) */}
         <div
           id="informasi-left-text-wrapper"

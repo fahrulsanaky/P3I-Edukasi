@@ -36,10 +36,10 @@ const testimonialsData = [
 
 export default function Testimoni() {
   return (
-    <section className="w-full h-auto bg-[#1cd690] flex items-center justify-center py-[48px] px-[48px]">
+    <section className="w-full h-auto bg-[#1cd690] flex items-center justify-center py-8 sm:py-12 lg:py-[48px] px-4 sm:px-8 lg:px-[48px]">
       <div
         id="testimoni-card-1"
-        className="w-full max-w-[1196px] bg-[#022859] rounded-[16px] px-[24px] py-[32px] flex flex-col lg:flex-row items-start justify-between gap-8 lg:gap-12 text-left"
+        className="w-full max-w-[1196px] bg-[#022859] rounded-[16px] px-5 sm:px-8 lg:px-[24px] py-6 sm:py-8 lg:py-[32px] flex flex-col lg:flex-row items-start justify-between gap-8 lg:gap-12 text-left"
       >
         {/* Kolom Kiri (Lebar 30%) */}
         <div className="w-full lg:w-[30%] shrink-0 flex flex-col gap-2.5 text-left">

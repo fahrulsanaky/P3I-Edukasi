@@ -118,7 +118,7 @@ export default function MainSection() {
   return (
     <section 
       id="mainSectionDetailProgram" 
-      className="w-full h-auto bg-white flex items-center justify-center py-[48px] px-6 sm:px-12 lg:px-[48px]"
+      className="w-full h-auto bg-white flex items-center justify-center py-8 sm:py-12 lg:py-[48px] px-4 sm:px-8 lg:px-[48px]"
     >
       <div 
         id="detail-program-2col-container"

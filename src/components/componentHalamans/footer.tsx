@@ -4,7 +4,7 @@ import { Instagram, Twitter, Youtube, Send, MapPin, PhoneCall, Mail } from 'luci
 
 export default function Footer() {
   return (
-    <footer id="footerSection" className="w-full bg-[#022859] h-auto text-white border-none px-[32px] py-[48px]">
+    <footer id="footerSection" className="w-full bg-[#022859] h-auto text-white border-none px-4 sm:px-8 lg:px-[32px] py-8 sm:py-12 lg:py-[48px]">
       {/* Container Utama */}
       <div className="w-full max-w-7xl mx-0 px-0 py-0">
         {/* Baris Atas: Kolom Brand & Kolom Navigasi */}

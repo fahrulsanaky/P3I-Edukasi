@@ -36,10 +36,10 @@ const keunggulanData = [
 
 export default function KeunggulanSection() {
   return (
-    <section id="keunggulanSection" className="w-full bg-[#1cd690] flex items-center justify-center py-[48px] px-[48px]">
+    <section id="keunggulanSection" className="w-full bg-[#1cd690] flex items-center justify-center py-8 sm:py-12 lg:py-[48px] px-4 sm:px-8 lg:px-[48px]">
       <div
         id="inhouse-keunggulan-card-main"
-        className="w-full max-w-[1196px] bg-[#022859] rounded-[16px] px-[32px] py-[42px] flex flex-col items-start justify-start gap-8 lg:gap-10 text-left"
+        className="w-full max-w-[1196px] bg-[#022859] rounded-[16px] px-5 sm:px-8 lg:px-[32px] py-6 sm:py-[42px] flex flex-col items-start justify-start gap-8 lg:gap-10 text-left"
       >
         {/* Bagian Atas (Header & Deskripsi) */}
         <div className="w-full flex flex-col gap-3 text-left">

@@ -15,7 +15,7 @@ export default function HeroSection() {
       <div className="absolute inset-0 bg-gradient-to-r from-slate-950/95 via-slate-900/80 to-slate-900/40" />
 
       {/* Konten Hero Section */}
-      <div className="relative z-10 w-full px-6 sm:px-8 py-[32px] text-left flex flex-col items-start gap-6">
+      <div className="relative z-10 w-full px-4 sm:px-8 py-6 sm:py-[32px] text-left flex flex-col items-start gap-6">
         <h1 
           style={{ fontFamily: 'Poppins, sans-serif' }}
           className="text-[42px] font-bold text-white tracking-tight leading-tight max-w-3xl px-0 py-0"

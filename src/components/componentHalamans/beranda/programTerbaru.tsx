@@ -8,8 +8,8 @@ export default function ProgramTerbaru() {
   const latestPrograms = dataPelatihan.slice(0, 3);
 
   return (
-    <section className="w-full h-auto bg-white flex items-center justify-center py-0 px-[48px]">
-      <div className="w-full max-w-7xl mx-0 flex flex-col px-[32px] py-[48px]">
+    <section className="w-full h-auto bg-white flex items-center justify-center py-0 px-4 sm:px-8 lg:px-[48px]">
+      <div className="w-full max-w-7xl mx-0 flex flex-col px-2 sm:px-6 lg:px-[32px] py-8 sm:py-12 lg:py-[48px]">
         {/* Header: Title on Top, Description below Title */}
         <div className="flex flex-col items-center text-center mb-8">
           <span 
@@ -38,7 +38,7 @@ export default function ProgramTerbaru() {
         {/* 3 Cards Horizontal Grid */}
         <div 
           id="program-terbaru-cards-container"
-          className="grid grid-cols-1 md:grid-cols-3 gap-[24px] w-full items-stretch mb-0 px-[32px] py-0"
+          className="grid grid-cols-1 md:grid-cols-3 gap-[24px] w-full items-stretch mb-0 px-0 sm:px-4 lg:px-[32px] py-0"
         >
           {latestPrograms.map((item) => (
             <div 
